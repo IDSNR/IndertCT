@@ -8,7 +8,7 @@ This package provides a client to interact with the API of your product.
 Install the package via pip:
 
 ```bash
-pip install your_package_name
+pip install IndertCT
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ pip install your_package_name
 ### Importing the Package
 
 ```python
-from IndertCT import Client
+from IndertCT_python import Client
 ```
 
 ### Client Initialization
@@ -101,6 +101,7 @@ Gets historical data.
 
 - **URL:** `https://indertct.me/api/historicalCr`
 - **Arguments:**
+  - `password`: Password for authentication.
   - `times`: Dictionary of time ranges.
   - `limit`: Limit of data points (optional, default is a large number).
   - `crs`: A string or list/tuple of cryptos.
@@ -134,6 +135,3 @@ Handles trading variables.
 - **Arguments:**
   - `password`: Password for authentication.
   - `data`: List of trading variables (list).
-\`\`\`
-
-Now you can copy and paste the above content into your `README.md` file.

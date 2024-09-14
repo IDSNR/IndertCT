@@ -7,7 +7,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '0.0.1'
+VERSION = '0.0.7'
 DESCRIPTION = 'Package for IndertCT´s Api'
 LONG_DESCRIPTION = 'A package to help you use IndertCT´s API'
 
@@ -25,7 +25,6 @@ setup(
     keywords=['python', 'IndertCT', 'cryptocurrency', 'money', 'market forecast', 'crypto', 'crypto market', 'cryptocurrency market', 'API', 'Integration', 'IndertCT integration'],
     classifiers=[
         "Development Status :: 1 - Planning",
-        "Intended Audience :: IndertCT users",
         "Operating System :: Unix",
         "Operating System :: MacOS :: MacOS X",
         "Operating System :: Microsoft :: Windows"
